@@ -2,10 +2,20 @@
 title: "eds221-day3-comp_try2"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+temperature <- 95
+if (temperature > 97) { 
+  print("temperature warning")
+  }else 
+    print("No temperature warning")
+```
 
 ```{r}
-1 + 1
+whale_length_m<- 15
+if ( whale_length_m > 35) 
+  print("GIANT")
+}else if (whale_length_m >= 20 & whale_length_m<= 35){
+    print("MEDIUM")
+  }else if (whale_length_m <20) {print("SMALL")}
 ```
+
